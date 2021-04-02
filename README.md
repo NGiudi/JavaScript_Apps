@@ -1,7 +1,6 @@
 # JavaScript Apps
 
-## Objetivo
-Desarrollar pequeñas aplicaciones en javascript que puedan ser de utilidad para la creación de páginas web. 
+Se tiene como objetivo desarrollar pequeñas aplicaciones en javascript que puedan ser de utilidad para la creación de páginas web. 
 
 ## Aplicaciones 
 
