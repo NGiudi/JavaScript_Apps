@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="css/calendar.css">
+</head>
+
+<body>
+    <div id="calendar">
+        <div id="year"></div>
+        
+        <div class="month">
+            <i id="arrowLeft" class="fas fa-caret-left"></i>
+            <p id=month></p>
+            <i id="arrowRigth" class="fas fa-caret-right"></i>
+        </div>
+
+        <div id='grid'>
+            <div id='gridHeader'>
+                <span>D</span>
+                <span>L</span>
+                <span>M</span>
+                <span>M</span>
+                <span>J</span>
+                <span>V</span>
+                <span>S</span>
+            </div>
+
+            <div id='gridBody'></div>
+        </div>
+    
+    </div>
+</body>
+
+<script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+<script src="js/calendar.js"></script>
+
+</html>
