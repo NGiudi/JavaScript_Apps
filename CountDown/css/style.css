@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+*{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+#clock{
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+}
+  #clock .cube{
+    border-radius: 15px;
+    display: inline-block;
+    margin: 0 10px;
+    overflow: hidden;
+    text-align: center;
+  }
+    #clock .cube .header{
+      background-color: #5DADE2;
+      padding: 10px 20px;
+    }
+    #clock .cube .number{
+      background-color: #f8f8f8;
+      font-family: 'Cabin Sketch', cursive;
+      font-size: 40px;
+      padding: 10px 20px;
+    }
+
+input[type="text"]{
+  background-color: #f8f8f8;
+  border: none;
+  border-radius: 5px;
+  margin: 40px;
+  padding: 10px 20px;
+  width: 300px;
+}
+
+input[type="submit"]{
+  background-color: #5DADE2;
+  border: none;
+  border-radius: 5px;
+  margin: 40px;
+  padding: 10px 20px;
+}
+  input[type="submit"]:hover{
+    transform: scale(1.05);
+  }
