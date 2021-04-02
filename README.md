@@ -6,9 +6,10 @@ Se tiene como objetivo desarrollar pequeñas aplicaciones en javascript que pued
 
 ### CountDown
 ```
-Para que comienze a funcionar se debe pasar una fecha con el mismo formato que Date() y automaticamente comenzará la cuenta regersiva.
-Si no sabe como es el formato de Date puede ingresar en la consola del navegador y escribir Date(), el navegador va a devolver la fecha y hora
-de ese exacto momento formateado.
+Para que comienze a funcionar se debe pasar una fecha con el mismo formato que Date() y automaticamente comenzará la cuenta 
+regersiva.
+Si no sabe como es el formato de Date puede ingresar en la consola del navegador y escribir Date(), el navegador va a 
+devolver la fecha y hora de ese exacto momento formateado.
 ```
 
 ### Calendar
